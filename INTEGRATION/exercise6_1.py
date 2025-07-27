@@ -6,7 +6,7 @@ def gp(msg="Quick update"):
     
 from trapezoidal import trapezoidal
 
-def trapezoida_test():
+def trapezoidal_test():
     n = 2
     f = lambda x: 2 * (x)**3
     F = lambda x: 0.5 * (x)**4
@@ -17,6 +17,6 @@ def trapezoida_test():
     print("n={:d}: {:.4f}, error: {:g}".format(n, numerical, error))
 
 if __name__ == "__main__":
-    trapezoida_test()
+    trapezoidal_test()
     
 gp("Update")
