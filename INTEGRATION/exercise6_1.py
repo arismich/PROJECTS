@@ -19,4 +19,3 @@ def trapezoidal_test():
 if __name__ == "__main__":
     trapezoidal_test()
     
-gp("Update")
