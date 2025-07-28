@@ -21,6 +21,7 @@ def mp(a, b):
     
     print("n= {:d}: {:.4f}, error = {:g}".format(2, numerical_2, error_2))
     print("n= {:d}: {:.4f}, error = {:g}".format(100, numerical_100, error_100))
+    return numerical_100, error_100
 
     
 
@@ -43,12 +44,9 @@ def tz(a, b):
 
     print("n= {:d}: {:.4f}, error = {:g}".format(2, numerical_2, error_2))
     print("n= {:d}: {:.4f}, error = {:g}".format(100, numerical_100, error_100))
+    return numerical_100, error_100
 
 
-midpoint = mp(2, 6)
-print(midpoint)
+print(mp(2, 6))
 print("="*10)
-trapezoidal = tz(2, 6)
-print(trapezoidal)
-
-#None is printed because we didnt declare anything in the return of our defined functions
+print(tz(2, 6))

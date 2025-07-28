@@ -44,5 +44,12 @@ def tz(a, b):
 
 print(mp(0, np.pi))
 print("="*40)
-print(tz(0, np.pi))
+print(tz(0, np.pi),"\n")
+
+print("The same methodology but from zero to 2pi\n")
+
+print(mp(0, 2*np.pi))
+print("="*40)
+print(tz(0, 2*np.pi),"\n")
+
 
