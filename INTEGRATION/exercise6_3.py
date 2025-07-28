@@ -1,3 +1,5 @@
+#SOLVING AN INTEGRAL USING MIDPOINT AND TRAPEZOIDAL METHODS
+
 # imports
 from midpoint import midpoint
 from trapezoidal import trapezoidal
