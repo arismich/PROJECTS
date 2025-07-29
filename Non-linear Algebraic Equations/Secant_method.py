@@ -20,6 +20,7 @@ def secant(f, x0, x1, eps):
     if abs(f_x1) > eps:
         iteration_counter = -1
     return x, iteration_counter
+
 if __name__ == "__main__":
     def f(x):
         return x**2 - 9 
@@ -32,6 +33,3 @@ if __name__ == "__main__":
         print("A solution is: {:f}".format(solution))
     else:
         print("Solution not found!")
-        
-
-    
